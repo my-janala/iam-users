@@ -18,7 +18,7 @@ Write simple HCL code to:
 
 - Extra point if you nicely format the output with username, access_key, secret access key in one line.
 
-# Usage Example
+## Usage Example
 
 ```
 module "dev_iam_users" {
@@ -44,7 +44,7 @@ module "dev_iam_users" {
 | user_names  | Create IAM users with these names | list(string) | | yes |
 
 ## Outpus
- @outputs.tf[outputs.tf]
+[outputs.tf](outputs.tf)
 
 
 ## Authors
