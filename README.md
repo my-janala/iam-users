@@ -46,6 +46,15 @@ module "dev_iam_users" {
 ## Outpus
 [outputs.tf](outputs.tf)
 
+## Testing
+
+In the module _./iam-users_, testing is performed with [terratest](https://github.com/gruntwork-io/terratest) and it creates a small piece of infrastructure, matches the output and destroy infrastructure in your AWS account. This testing is written in GO, so you need a [GO environment](https://golang.org/doc/install) in your system.
+
+You need to run the following command in the testing folder:
+```hcl
+   cd ./iam-users/src/test
+   go test -v -p 1 ./...
+```
 
 ## Authors
 
