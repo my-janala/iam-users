@@ -18,9 +18,6 @@ Write simple HCL code to:
 
 - Extra point if you nicely format the output with username, access_key, secret access key in one line.
 
-<<<<<<< HEAD
-=======
-
 # Usage Example
 
 ```
