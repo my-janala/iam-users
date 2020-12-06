@@ -49,7 +49,7 @@ module "dev_iam_users" {
 
 ## Authors
 
-Created by [Mezbaur Rahmna](https://github.com/my-janala) - mezbaur.rahman@gmail.com.
+Created by [Mezbaur Rahman](https://github.com/my-janala) - mezbaur.rahman@gmail.com.
 
 ## License
 
