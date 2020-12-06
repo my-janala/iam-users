@@ -26,7 +26,7 @@ module "uat_iam_users" {
 ## test
 module "test_iam_users" {
   source = "./iam-users"
-  env   = "uat"
+  env   = "test"
   user_names  = ["nevsa", "cordelia", "kriste", "darleen", "wynnie", "vonnie", "emelita", "maurita", "devinne"]
 }
 
