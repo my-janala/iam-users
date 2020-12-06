@@ -11,8 +11,6 @@ var terraformDir	= "../"
 
 func TestIAMUser(t *testing.T) {
 
-	// var  user_names			= []string{"nevsa", "cordelia", "kriste", "darleen", "wynnie", "vonnie", "emelita", "maurita", "devinne"}
-
 	t.Parallel()
 
 	terraformOptions := &terraform.Options{
