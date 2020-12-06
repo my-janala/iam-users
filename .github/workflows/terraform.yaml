@@ -10,9 +10,6 @@ jobs:
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: assignment_two
 
     steps:
       - name: 'Checkout'
