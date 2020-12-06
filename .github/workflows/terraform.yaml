@@ -1,0 +1,24 @@
+name: 'Terraform Plan'
+on:
+  push:
+    branches: main
+defaults:
+      run:
+        shell: bash
+
+jobs:
+  terraform:
+    name: 'Terraform'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: assignment_two
+
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v2
+      - name: 'Terraform Init'
+        run: terraform init
+
+      - name: 'Terraform Plan'
+        run: terraform plan
