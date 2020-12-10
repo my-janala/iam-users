@@ -22,7 +22,6 @@ func TestIAMUser(t *testing.T) {
 			"env"					: "dev",
 			"user_names"  : "nevsa",
 		},
-
 	}
 
 	defer terraform.Destroy(t, terraformOptions)
@@ -36,5 +35,4 @@ func TestIAMUser(t *testing.T) {
 	t.Run("Check IAM user ", func(t *testing.T){
 		assert.Equal(t, expectedIamUser, actualIamUser)
 	})
-
 }
