@@ -7,7 +7,6 @@ variable "env" {
     condition = length(var.env) >= 2 && can(regex("dev|qa|test|uat|prod", var.env))
     error_message = "The env value must have at least 2 characters and of list \"dev|qa|test|uat|prod\" ."
   }
-
 }
 
 variable "user_names" {
@@ -18,6 +17,5 @@ variable "user_names" {
     condition = length(var.user_names) != 0
     error_message = "The user_names cannot be null."
   }
-
 }
 
